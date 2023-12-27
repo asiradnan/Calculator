@@ -13,10 +13,10 @@
 		<div id="numpad">
 			<table>
 				<tr>
-					<td id="on-off" onclick="toggle()">Turn On</td><td id="ans" onclick="addans()">Ans</td><td id="C" title="Backspace" onclick="C()">C</td><td id="AC" title="All Clear" onclick="AC()">AC</td>
+					<td title="On/Off" id="on-off" onclick="toggle()">Turn On</td><td title="Last Answer" id="ans" onclick="addans()">Ans</td><td id="C" title="Backspace" onclick="C()">C</td><td id="AC" title="All Clear" onclick="AC()">AC</td>
 				</tr>
 				<tr>
-					<td id="R">Rem</td>  <td>%</td><td>^</td>  <td>+</td>
+					<td title="remainder" id="R">Rem</td>  <td>%</td><td title="power">^</td>  <td>+</td>
 				</tr>
 				<tr>
 					<td>1</td> <td>2</td> <td>3</td> <td>-</td>
@@ -28,7 +28,7 @@
 					<td>7</td> <td>8</td> <td>9</td><td>/</td> 
 				</tr>
 				<tr>
-					<td>0</td><td>00</td> <td>.</td> <td id="res" onclick="result()">=</td>
+					<td>0</td><td>00</td> <td>.</td> <td title="Calculate!" id="res" onclick="result()">=</td>
 				</tr>
 			</table>
 		</div>

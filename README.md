@@ -24,4 +24,4 @@ Check out the live demo [here](https://asiradnan.github.io/Calculator/)!
 ## Screenshots
 
 
-![Calculator App Screenshot](./screenshots/sna2.png)
+![Calculator App Screenshot](./screenshots/snap2.png)

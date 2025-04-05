@@ -1,16 +1,14 @@
-
 # Calculator App
 
-![Calculator App Screenshot](./screenshots/snap1.png)
+<img src="./screenshots/snap1.png" alt="Calculator App Screenshot" width="150">
 
 A basic calculator web application built using HTML, CSS, and JavaScript. Perform basic arithmetic operations such as addition, subtraction, multiplication, and division. Additional features include percentage calculations and finding the remainder.
 
+> This was one of the early projects I built to learn and practice CSS and JavaScript.
 
-## Demo
+## Live Site
 
-Check out the live demo [here](https://asiradnan.github.io/Calculator/)!
-
-
+Check out the calculator in action: [calculator.asiradnan.com](https://calculator.asiradnan.com)
 
 
 ## Features
@@ -18,10 +16,8 @@ Check out the live demo [here](https://asiradnan.github.io/Calculator/)!
 - **Basic Operations:** Perform addition, subtraction, multiplication, and division.
 - **Percentage Calculation:** Quickly calculate percentages for any value.
 - **Remainder Calculation:** Find the remainder after division.
-- **Responsive Design:** Use the calculator on various devices with a responsive layout. 
-
+- **Responsive Design:** Use the calculator on various devices with a responsive layout.
 
 ## Screenshots
 
-
-![Calculator App Screenshot](./screenshots/snap2.png)
+<img src="./screenshots/snap2.png" alt="Calculator App Screenshot" width="150">

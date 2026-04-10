@@ -25,7 +25,10 @@ function toggle(){
   }
 }
 function displayadd(){
-  if (on==false ) return;
+  if (on==false ) {
+    alert("Turn the calculator on first!")
+      return;
+  }
   if (ans==true) {
     AC();
     ans=false;

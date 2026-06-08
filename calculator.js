@@ -7,10 +7,15 @@ for (let i=0;i<td.length;i++){
   if (td[i].id=='' || td[i].id=='R'){ td[i].addEventListener('click',displayadd);}
 }
 function C(){
+  if (on==false ) {
+    alert("Turn the calculator on first!")
+      return;
+  }
   display.innerHTML=display.innerHTML.slice(0,display.innerHTML.length-1);
 }
 function toggle(){
-  AC();
+  // AC();
+  display.innerHTML = '';
   on=!on;
   if (!on) {
     document.getElementById('on-off').innerHTML = 'Turn On';
@@ -37,14 +42,26 @@ function displayadd(){
   else display.innerHTML+=this.innerHTML;
 }
 function addans(){
+  if (on==false ) {
+    alert("Turn the calculator on first!")
+      return;
+  }
   if (display.innerHTML.length==0) ans=false;
   display.innerHTML+=last;
 }
 function AC(){
+  if (on==false ) {
+    alert("Turn the calculator on first!")
+      return;
+  }
   if (on==false) return;
   display.innerHTML = '';
 }
 function result(){
+  if (on==false ) {
+    alert("Turn the calculator on first!")
+      return;
+  }
   if (on==false || ans ) return;
   let s=display.innerHTML;
   if (s.length==0) {return;}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=DM%20Sans:400');
+
 #body{
     height: 580px;
     max-height: 100%;
@@ -70,4 +72,39 @@ td{
 }
 #R{
     font-size: 20px;
+}
+
+
+footer {
+    width: 100%;
+    height: calc(100vh - 700px);
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    background-color: #d1d1d1;
+    margin-top: 100;
+    font-family: 'DM Sans';
+}
+
+footer a{
+    height: 24px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #0a0a0a;
+}
+.footer-left {
+    justify-self: end;
+    margin-right: 25px;
+}
+.footer-right {
+    justify-self: start;
+    margin-left: 25px;
+}
+footer a span{
+    margin-left: 5px;
 }

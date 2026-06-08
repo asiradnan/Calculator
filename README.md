@@ -21,3 +21,6 @@ Check out the calculator in action: [https://calculator.asiradnan.com](https://c
 ## Screenshots
 
 <img src="./screenshots/snap2.png" alt="Calculator App Screenshot" width="150">
+
+## License
+This project is open source under the **MIT License**.
